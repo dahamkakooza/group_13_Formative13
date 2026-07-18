@@ -142,7 +142,7 @@ Atari ROMs
 Installation
 bash
 # Clone the repository
-git clone https://github.com/dahamkakooza/formative3_group13.git
+https://github.com/dahamkakooza/group_13_Formative13.git
 cd formative3_group13
 
 # Create and activate virtual environment
