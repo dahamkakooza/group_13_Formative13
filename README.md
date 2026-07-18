@@ -87,6 +87,7 @@ Policy	CnnPolicy	Best for visual Atari games
 Buffer Size	50,000	Memory-efficient
 Total Timesteps	1,000,000	Sufficient for learning
 🏆 Results
+Trained Model - https://drive.google.com/file/d/1KN0M7Ql8m9J3I-iAH1q9HANG6J-XNuPu/view?usp=sharing
 Final Model Performance
 Metric	Value
 Random Agent Baseline	-21.00
