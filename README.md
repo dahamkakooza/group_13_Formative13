@@ -3,14 +3,14 @@
 This project implements a Deep Q-Network (DQN) agent using Stable Baselines 3 and Gymnasium to play the classic Atari game Pong. The agent was trained using reinforcement learning to learn optimal policies through interaction with the environment.
 
 Assignment: Formative 3 - DQN Atari Agent
-Group: [Your Group Number]
+Group: 13
 Date: July 2026
 
 👥 Team Members and Contributions
 Member	Role	Responsibilities
-Member 1	Lead Developer	Training infrastructure, environment setup, learning rate experiments, CNN vs MLP comparison
-Member 2	Hyperparameter Specialist	Gamma & batch size experiments, performance analysis
-Member 3	Evaluation & Presentation	play.py implementation, gameplay recording, documentation
+Member 1 [Mahad]	Lead Developer	Training infrastructure, environment setup, learning rate experiments, CNN vs MLP comparison
+Member 2	[Mahe]Hyperparameter Specialist	Gamma & batch size experiments, performance analysis
+Member 3	Evaluation & Presentation	play.py implementation [Mahad], gameplay recording, documentation
 🎯 Environment Selection
 Game: Pong (ALE/Pong-v5)
 Attribute	Details
