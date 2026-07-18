@@ -115,7 +115,7 @@ https://youtu.be/n4Ama3UO_QI
 
 Click the image above or click here to watch the trained agent play Pong.
 
-📁 Project Structure
+📁 Project Structure After runing the train.py and train_final.py
 text
 formative3_group13/
 ├── train.py                    # Main training script
