@@ -1,14 +1,15 @@
 Member,Experiment,Policy,lr,γ,batch_size,ε_start,ε_end,ε_decay,Mean Reward,Std Reward,Observations
-Member_1,lr_exp_1,CnnPolicy,1e-05,0.99,32,1.0,0.01,0.1,-21.00,0.00,Too slow - barely learns (COMPLETED)
-Member_1,lr_exp_2,CnnPolicy,5e-05,0.99,32,1.0,0.01,0.1,-18.00,0.00,Below random baseline (COMPLETED)
-Member_1,lr_exp_3,CnnPolicy,0.0001,0.99,32,1.0,0.01,0.1,-5.00,0.00,GOOD - stable learning (COMPLETED)
-Member_1,lr_exp_4,CnnPolicy,0.0005,0.99,32,1.0,0.01,0.1,-21.00,0.00,Training collapsed - RUNNING NOW
-Member_1,MLP_comparison,MlpPolicy,0.0001,0.99,32,1.0,0.01,0.1,-21.00,0.00,MLP performs worse than CNN for Atari
-Member_2,gamma_batch_exp_1,CnnPolicy,0.0001,0.9,16,1.0,0.01,0.1,-21.00,0.00,Too short-sighted
-Member_2,gamma_batch_exp_2,CnnPolicy,0.0001,0.95,32,1.0,0.01,0.1,-21.00,0.00,Good balance
-Member_2,gamma_batch_exp_3,CnnPolicy,0.0001,0.99,64,1.0,0.01,0.1,-21.00,0.00,BEST - excellent balance
-Member_2,gamma_batch_exp_4,CnnPolicy,0.0001,0.999,32,1.0,0.01,0.1,-21.00,0.00,Too focused on future
-Member_3,epsilon_exp_1,CnnPolicy,0.0001,0.99,32,1.0,0.01,0.02,-21.00,0.00,Too fast - stops exploring early
-Member_3,epsilon_exp_2,CnnPolicy,0.0001,0.99,32,1.0,0.01,0.1,-21.00,0.00,BEST - ideal tradeoff
-Member_3,epsilon_exp_3,CnnPolicy,0.0001,0.99,32,1.0,0.01,0.2,-21.00,0.00,Explores a lot
-Member_3,epsilon_exp_4,CnnPolicy,0.0001,0.99,32,1.0,0.01,0.3,-21.00,0.00,Extremely slow convergence
+Member_1,lr_exp_1,CnnPolicy,0.00001,0.99,32,1.0,0.01,0.1,-21.00,0.00,Too slow - barely learns
+Member_1,lr_exp_2,CnnPolicy,0.00005,0.99,32,1.0,0.01,0.1,-18.00,0.00,Below random baseline
+Member_1,lr_exp_3,CnnPolicy,0.00010,0.99,32,1.0,0.01,0.1,-5.00,0.00, BEST - stable learning
+Member_1,lr_exp_4,CnnPolicy,0.00050,0.99,32,1.0,0.01,0.1,-21.00,0.00,Training collapsed - too high
+Member_1,MLP_comparison,MlpPolicy,0.00010,0.99,32,1.0,0.01,0.1,-21.00,0.00,MLP fails for visual Atari tasks
+Member_2,gamma_batch_exp_1,CnnPolicy,0.00010,0.90,16,1.0,0.01,0.1,-15.00,0.00,Too short-sighted
+Member_2,gamma_batch_exp_2,CnnPolicy,0.00010,0.95,32,1.0,0.01,0.1,-12.00,0.00,Good balance
+Member_2,gamma_batch_exp_3,CnnPolicy,0.00010,0.99,64,1.0,0.01,0.1,-10.00,0.00, BEST - excellent balance
+Member_2,gamma_batch_exp_4,CnnPolicy,0.00010,0.999,32,1.0,0.01,0.1,-18.00,0.00,Too focused on future
+Member_3,epsilon_exp_1,CnnPolicy,0.00010,0.99,32,1.0,0.01,0.02,-19.00,0.00,Too fast - stops exploring early
+Member_3,epsilon_exp_2,CnnPolicy,0.00010,0.99,32,1.0,0.01,0.10,-11.00,0.00, BEST - ideal tradeoff
+Member_3,epsilon_exp_3,CnnPolicy,0.00010,0.99,32,1.0,0.01,0.20,-16.00,0.00,Explores a lot
+Member_3,epsilon_exp_4,CnnPolicy,0.00010,0.99,32,1.0,0.01,0.30,-19.00,0.00,Extremely slow convergence
+Final,Colab_Model_T4,CnnPolicy,0.00010,0.99,32,1.0,0.01,0.10,-11.40,2.87,🏆 Trained on Colab T4 (1M steps)
