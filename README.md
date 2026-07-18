@@ -110,7 +110,7 @@ Episode	Reward	Steps
 5	-7.00 🏆	759
 Mean	-11.40	655.20
 🎥 Gameplay Demonstration
-https://img.youtube.com/vi/PLACEHOLDER/0.jpg
+https://youtu.be/n4Ama3UO_QI
 
 Click the image above or click here to watch the trained agent play Pong.
 
