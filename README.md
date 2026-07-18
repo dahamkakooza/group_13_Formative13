@@ -231,7 +231,7 @@ Mnih, V., et al. (2015). "Human-level control through deep reinforcement learnin
 Arcade Learning Environment
 
 📝 License
-This project was created for educational purposes as part of [Course Name] at [University Name].
+This project was created for educational purposes as part of Machine Learning Technique II at The African Leadership University.
 
 🙏 Acknowledgments
 Coach: [Coach Name] for guidance and feedback
